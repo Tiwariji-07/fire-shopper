@@ -44,7 +44,7 @@ const Products = () => {
     <div>
       <h1>Products</h1>
       <div className="form_container">
-        {/* <ProductForm /> */}
+        <ProductForm />
         {products.map((product, index) => (
           <Productcard product={product} key={index} />
         ))}
