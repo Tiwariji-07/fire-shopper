@@ -1,0 +1,43 @@
+@import '../../../global';
+
+.sidebar-container{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin: 0;
+position: relative;
+}
+
+.sidebar{
+    // padding: 2em;
+    padding-top: 0;
+    background-color: $text-primary-color;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar>h2{
+    padding: 0 10px ;
+    color: $white;
+}
+
+.sidebar-item{
+    padding: 10px;
+    border-radius: 5px;
+}
+.sidebar-item:hover{
+    background: #9c9a9a;
+}
+
+.link{
+    margin: 0 10px ;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+
+.link-text{
+    text-decoration: none;
+    color: $white;
+}
+
